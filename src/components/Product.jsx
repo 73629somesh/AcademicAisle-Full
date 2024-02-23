@@ -14,7 +14,7 @@ function Product(props) {
         <div className="card-body py-1" onClick={(e) => showModal(x)} >
           <div className="card-myimg" style={{height: '80%', margin: "5px 0px 15px 0px"}}>
           <img
-            style={{ width: "90%", height: '225px'}}
+            style={{height: '225px'}}
             src={"http://localhost:8080/" + x.photo}
             className="img-thumnail"
           /></div>
