@@ -12,14 +12,14 @@ const Footer = () => {
         <div className="row">
           <div className="col-md-4">
             <h5>About Us :</h5>
-            <a href="/aboutUs">About Us </a>
+            <a href="/aboutUs" style={{color: 'black'}}>About Us </a>
             {/* <p>Your one-stop destination for buying and selling educational materials. Explore a wide range of textbooks, study guides, and more.</p> */}
           </div>
           <div className="col-md-4">
             <h5>Contact Us :</h5>
             <div>
             <h7>Email: </h7>
-            <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=GTvVlcSBmzbGDXDvJBLxLZPtZlHmnkQkLXHpxpzJVHnpCJGVtRtGScNKPbgnltlQLBVjbpgGzdPMW">
+            <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=GTvVlcSBmzbGDXDvJBLxLZPtZlHmnkQkLXHpxpzJVHnpCJGVtRtGScNKPbgnltlQLBVjbpgGzdPMW" style={{color: 'black'>
             AcademicAisle17@gmail.com
                     </a></div> <br></br>  
             <p>Phone: +91 7888009991</p>
