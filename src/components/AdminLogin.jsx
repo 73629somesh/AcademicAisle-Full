@@ -60,7 +60,7 @@ function AdminLogin() {
             button: "OK",
           });
           dispatch({ type: "IsLoggedIn" });
-          navigate("/aprofile");
+          navigate("/");
         })
         .catch((error) => {
           console.log("Error", error);
