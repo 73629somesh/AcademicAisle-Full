@@ -25,7 +25,7 @@ function TopSlider() {
   const textStyle = {
     
     position: 'absolute',
-    top: '46%',
+    top: '50%',
     left: '32%',
     transform: 'translate(-50%, -50%)',
     color: 'black',
