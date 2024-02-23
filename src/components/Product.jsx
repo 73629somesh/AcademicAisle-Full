@@ -3,7 +3,7 @@ function Product(props) {
   return (
     <>
     {/* <h1>Our products</h1> */}
-    <div className="col-md-4" key={x.productId} style={{marginBottom: '2rem',  width: "80%", maxHeight: "20rem",minHeight: "15rem"}}>
+    <div className="col-md-4" key={x.productId} style={{marginBottom: '2rem',  width: "70%", maxHeight: "20rem",minHeight: "15rem"}}>
       <div
         className="card text-center h-100 product-card"
         style={{ boxShadow: "0 0 3px 3px white", margin:'2%'}}
