@@ -66,7 +66,7 @@ const AdminProducts = () => {
             {/* <th>Product Type</th>
                             <th>Price</th> */}
             <th>Seller</th>
-            <th>Option</th>
+{/*             <th>Option</th> */}
           </tr>
         </thead>
         <tbody>
@@ -90,14 +90,14 @@ const AdminProducts = () => {
               {/* <td>{x.brand}</td>
                                 <td>{x.price}</td> */}
               <td>{x.sellerName}</td>
-              <td>
+{/*               <td>
                 <button
                   onClick={(e) => deleteProduct(x.productId)}
                   className="btn btn-danger outline"
                 >
                   Delete
                 </button>
-              </td>
+              </td> */}
             </tr>
           ))}
         </tbody>
