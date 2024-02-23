@@ -96,7 +96,7 @@ function AddProduct() {
         }
     }, [errors])
     return (
-        <div className="container mt-5">
+        <div className="container mt-5 mb-10">
             <div className="card shadow bg-transparent text-dark">
                 <div className="card-body">
                     <div className="row">
