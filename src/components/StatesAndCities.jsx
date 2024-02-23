@@ -1,0 +1,7 @@
+const city = [
+    "Mumbai", "Pune", "Nagpur", "Thane", "Nashik", "Aurangabad", "Solapur", "Amravati", "Jalgaon", "Kolhapur", "Nanded", "Sangli", "Akola", "Latur", "Dhule", "Ahmednagar", "Chandrapur", "Parbhani", "Ichalkaranji", "Jalna", "Bhusawal", "Panvel", "Satara", "Beed", "Yavatmal", "Bhiwandi", "Wardha", "Ulhasnagar", "Chiplun", "Karad", "Achalpur", "Osmanabad", "Nandurbar", "Washim", "Hingoli", "Ambernath", "Loni", "Kalyan", "Dombivli", "Malegaon", "Udgir", "Ausa", "Alibag", "Lonavala", "Roha", "Palghar", "Pen", "Ratnagiri", "Sangamner", "Shrirampur", "Badlapur", "Baramati", "Khopoli", "Vasai", "Virar", "Wai", "Warora", "Wardha", "Shegaon", "Sillod", "Sinnar", "Shrirampur", "Shahada", "Rahuri", "Risod", "Raver", "Rajura", "Pandharkaoda", "Paithan", "Ozar", "Nipani", "Navghar-Manikpur", "Murtijapur", "Mul", "Morshi", "Wadgaon Road", "Kamthi", "Gadchiroli", "Daryapur Banosa", "Amalner", "Achalpur", "Ahmednagar", "Akot", "Alibag", "Ambejogai", "Anjangaon", "Arvi", "Bhiwandi", "Dhule", "Ichalkaranji", "Kalyan", "Latur", "Navi Mumbai", "Nandurbar", "Osmanabad", "Palghar", "Panvel", "Parbhani",  "Ulhasnagar", "Vasai-Virar", "Wardha", "Washim"
+  ];
+  
+  const cityData = [...new Set(city)].sort();
+  
+  export default cityData;

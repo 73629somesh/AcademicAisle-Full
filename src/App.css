@@ -1,0 +1,175 @@
+.wdt{    
+  width: 90% !important;    
+}    
+.img    
+{    
+  height: 400px !important;    
+  width: 100vw;    
+} 
+.slick-next{
+  right: 20px!important;;
+  z-index: 1100;
+}
+
+.slick-prev{
+  left: 0!important;;
+  z-index: 1100;
+}
+
+.slick-next::before,.slick-prev::before{
+  font-size: 40px!important;  
+}
+
+.pagination {
+  display: block;
+  list-style: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+.pagination li{
+    display: inline-block;
+    min-width: 50px;
+    margin-right: 10px;
+}
+
+.pagination a {
+  display: inline-block;
+  padding: 10px;
+  border-radius: 50%;
+  width: 100%;
+  text-align: center;    
+  border: 1px solid #6c7ac9;
+  color: #6c7ac9;
+  background-color: white;
+  cursor: pointer;
+  user-select: none;
+}
+.pagination a:hover{
+    text-decoration: none;
+    background-color: skyblue;
+}
+
+.pagination__link {
+  font-weight: bold;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.pagination__link--active a {
+  color: #fff;
+  background: #6c7ac9;
+}
+
+.pagination__link--disabled a {
+  color: rgb(198, 197, 202);
+  border: 1px solid rgb(198, 197, 202);
+  background-color: gray;
+}
+
+.pagination__link--disabled:hover a {
+  background-color: gray;
+}
+
+body{
+  background-color: #fcf6f6b6;
+  font-family:'poppins', sans-serif
+  
+}
+/* input{
+  padding: 25%;
+} */
+
+/* Add this style to your CSS */
+.custom-dropdown .dropdown-menu {
+right: auto;
+left: 0;
+}
+
+.rating {
+display: flex;
+flex-direction: row-reverse;
+justify-content: center;
+}
+/* 
+#basic-nav-dropdown{
+ float: right
+}
+ */
+
+.rating > input{ display:none;}
+
+.rating > label {
+position: relative;
+width: 1.1em;
+font-size: 3vw;
+color: #FFD700;
+cursor: pointer;
+}
+
+.rating > label::before{
+content: "\2605";
+position: absolute;
+opacity: 0;
+}
+
+.rating > label:hover:before,
+.rating > label:hover ~ label:before {
+opacity: 1 !important;
+}
+
+.rating > input:checked ~ label:before{
+opacity:1;
+}
+
+.rating:hover > input:checked ~ label:before{ opacity: 0.4; }
+
+.nav-link{
+color: #000;
+:hover{
+  padding-bottom: 2%;
+  /* border-bottom: 1px solid #000; */
+  cursor: pointer;
+  /* text-decoration: underline; */
+}
+}
+
+.nav-link:hover{
+cursor: pointer;
+/* text-decoration: underline; */
+padding-bottom: 2%;
+  border-bottom: 2px solid #000;
+}
+
+
+.addCat-container{
+width: 60%;
+height: 60vh;
+col{
+  height: 90%;
+}
+.row{
+  height: 70%;
+}
+}
+.myheader{
+font-size: 2.5rem;
+}
+
+.addProduct{
+height: 70vh;
+margin: auto;
+/* display: flex; */
+/* justify-content: center; */
+/* align-items: center; */
+}
+
+.product-card{
+transition: transform 0.2s;
+}
+.product-card:hover{
+transform: scale(1.03);
+border-color: #897c7c;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+cursor: pointer;
+}
