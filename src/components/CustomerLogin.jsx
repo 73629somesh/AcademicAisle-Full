@@ -146,8 +146,8 @@ function CustomerLogin() {
                   name="email"
                   value={user.email}
                   onChange={handleInput}
-                  className="form-control form-control-sm"
-                  placeholder="name@example.com"
+                  className="form-control"
+                  placeholder="Enter your email"
                 />
                 <small id="emailHelp" class="form-text text-muted">
                   We'll never share your email with anyone else.
@@ -157,11 +157,11 @@ function CustomerLogin() {
                 <label htmlFor="exampleInputPassword1">Password</label>
                 <input
                   type="password"
-                  className="form-control form-control-sm"
+                  className="form-control"
                   name="password"
                   value={user.password}
                   onChange={handleInput}
-                  placeholder="password"
+                  placeholder="Password"
                 />
               </div>
 
