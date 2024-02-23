@@ -42,7 +42,7 @@ function TopSlider() {
                         className="d-block w-100 h-30"
                         src={FrontP}
                         alt="Home Page"
-                    style={{height:"700px",objectFit: 'cover'}}/>
+                    style={{height:"900px",objectFit: 'cover'}}/>
                     <div style={textStyle}>
         {text}
       </div>         
